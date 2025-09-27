@@ -195,7 +195,7 @@ class IntelligentToolRouter:
             print("video_url=======>", video_url)
             try:
                 MODEL_ID = "gemini-2.5-flash"
-                GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyA30sppiuNaIdl3AoS4enXd3XMQ3Hi9jIo")
+                GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyA30sppiuNaIdbuyvyvyl3AoS4enXd3XMQ3Hi9jIoyuyuvygvv")
                 client = genai.Client(api_key=GOOGLE_API_KEY)
 
                 prompt = user_enhanced_prompt
